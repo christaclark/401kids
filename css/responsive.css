@@ -1,0 +1,204 @@
+/*
+	========================================
+	JESSICA ONE PAGE RESUME THEME
+	========================================
+
+	@author			: @avriqq
+	@version		: v1.1
+	@date-create	: 04/09/2014
+	@last-update	: 13/09/2014
+	@file-name		: responsive
+
+*/
+
+@media screen and (min-width: 1200px){
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+	/* work */
+	.work-item > .item-link > img{
+		opacity: 0.8;
+		filter: alpha(opacity=80);
+		-webkit-transform: translate3d(-30px,0,0) scale(1.32);
+		   -moz-transform: translate3d(-30px,0,0) scale(1.32);
+			-ms-transform: translate3d(-30px,0,0) scale(1.32);
+			 -o-transform: translate3d(-30px,0,0) scale(1.32);
+				transform: translate3d(-30px,0,0) scale(1.32);
+	}
+	/* footer */
+	.footer .footer-widget-logo{
+		text-align: center;
+	}
+
+	.footer .footer-box .footer-icon{
+		position: absolute;
+		left: 10px;
+		top: -30px;
+	}
+}
+
+@media (min-width: 768px){
+	/* navbar */
+	.navbar-default{
+		padding: 40px 0 30px;
+		background-color: transparent;
+		border-color: transparent;
+		-webkit-transition: all 0.3s ease-in-out;
+		   -moz-transition: all 0.3s ease-in-out;
+			-ms-transition: all 0.3s ease-in-out;
+			 -o-transition: all 0.3s ease-in-out;
+				transition: all 0.3s ease-in-out;
+	}
+
+	.navbar-default .navbar-brand{
+		font-size: 42px;
+		color: #fff;
+	}
+}
+
+@media screen and (max-width: 767px){
+	/* navbar */
+	.navbar-default,
+	.navbar-default.navbar-scroll{
+		border: none;
+		background-color: #fff;
+	}
+
+	.navbar-default.navbar-scroll{
+		padding: 0;
+	}
+
+	.navbar-default .navbar-brand,
+	.navbar-default.navbar-scroll .navbar-brand{
+		font-size: 20px;
+		color: #fff;
+		padding-bottom: 50px;
+	}
+
+	.navbar-default .navbar-collapse{
+		padding-top: 20px;
+	}
+
+	.navbar-default .navbar-nav > li > a{
+		color: #434a54;
+	}
+
+	.navbar-default .navbar-nav > li > a:hover,
+	.navbar-default .navbar-nav > li > a:focus,
+	.navbar-default .navbar-nav > .active > a,
+	.navbar-default .navbar-nav > .active > a:hover{
+		position: relative;
+		color: #ef4034;
+	}
+
+	.navbar-default .navbar-nav > li > a:hover::after,
+	.navbar-default .navbar-nav > li > a:focus::after,
+	.navbar-default .navbar-nav > .active > a::after,
+	.navbar-default .navbar-nav > .active > a:hover::after{
+		content: '';
+		display: none;
+	}
+
+	.dropdown-menu > li > a{
+		font-weight: 600;
+	}
+
+	/* header */
+	#header{
+		min-height: 150px;
+		height: auto;
+		padding-top: 100px;
+	}
+
+	/* page */
+	#about{
+		display: block;
+		width: 100%;
+		height: auto;
+		min-height: 150px;
+		padding: 90px 0 40px;
+		background-image: none;
+		background-color: #fff;
+	}
+
+	#skill{
+		padding: 10px 0;
+	}
+
+	#service,
+	#work,
+	#blog,
+	#contact{
+		width: 100%;
+		height: auto;
+		min-height: 150px;
+		display: block;
+		padding: 90px 0 80px;
+	}
+	
+	/* work */
+	.work-item{
+		float: left;
+		width: 50%;
+	}
+
+	.work-item > .item-link > img{
+		opacity: 0.8;
+		filter: alpha(opacity=80);
+		-webkit-transform: translate3d(-30px,0,0) scale(1.32);
+		   -moz-transform: translate3d(-30px,0,0) scale(1.32);
+			-ms-transform: translate3d(-30px,0,0) scale(1.32);
+			 -o-transform: translate3d(-30px,0,0) scale(1.32);
+				transform: translate3d(-30px,0,0) scale(1.32);
+	}
+
+	.work-item > .item-link > .item-desc p{
+		display: none;
+	}
+
+	/* modal */
+	.modal-work .modal-close{
+		position: absolute;
+		top: 25px;
+		right: 25px;
+		width: 60px;
+		height: 60px;
+	}
+
+	.modal-work .modal-close::before{
+		content: '';
+		position: absolute;
+		left: 30px;
+		top: -10px;
+		width: 1px;
+		height: 80px;
+	}
+
+	.modal-work .modal-close::after{
+		content: '';
+		position: absolute;
+		right: 30px;
+		top: -10px;
+		width: 1px;
+		height: 80px;
+	}
+}
+
+@media screen and (max-width: 480px){
+	/* navbar */
+	.navbar-default .navbar-brand{
+		font-size: 19px;
+		line-height: 21px;
+	}
+
+	/* work */
+	.work-item{
+		float: left;
+		width: 100%;
+	}
+
+	.work-item > .item-link > .item-desc h3{
+		margin-top: 60px;
+	}
+	
+}
